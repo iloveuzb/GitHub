@@ -4,12 +4,12 @@ Go to VScode--->download Remote SSH from microsoft--->remote tunnels on left top
 
 yum install -y git
  
-git config --global user.name "fazizov123"
+git config --global user.name "username"
  
-git config --global user.email "farkhod.azizov@ziyotek.net"
+git config --global user.email "gmail@ziyotek.net"
  
 git config --list
-ssh-keygen -t rsa -b 4096 -C "farkhod.azizov@ziyotek.net"
+ssh-keygen -t rsa -b 4096 -C "gmail@ziyotek.net"
  
 cat ~/.ssh/id_rsa.pub
 ssh -T git@github.com
