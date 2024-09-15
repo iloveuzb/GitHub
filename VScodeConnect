@@ -1,2 +1,17 @@
 Simpler way to connect
 Go to VScode--->download Remote SSH from microsoft--->remote tunnels on left top--->click plus sign--->ssh root@IP_address--->first option--->connect on bottom right--->Linux--->continue--->password--->open folder---> /root/ click OK--->password--->click on trust--->ctrl+shift+~ to open terminal--->run source .bash_profile.
+
+
+yum install -y git
+ 
+git config --global user.name "fazizov123"
+ 
+git config --global user.email "farkhod.azizov@ziyotek.net"
+ 
+git config --list
+ssh-keygen -t rsa -b 4096 -C "farkhod.azizov@ziyotek.net"
+ 
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+
+git remote set-url origin https://yourgitusername:yourgittoken@github.com/yourgitusername/yourgitrepository.git
