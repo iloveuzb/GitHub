@@ -1,0 +1,2 @@
+Simpler way to connect
+Go to VScode--->download Remote SSH from microsoft--->remote tunnels on left top--->click plus sign--->ssh root@IP_address--->first option--->connect on bottom right--->Linux--->continue--->password--->open folder---> /root/ click OK--->password--->click on trust--->ctrl+shift+~ to open terminal--->run source .bash_profile.
