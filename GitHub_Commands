@@ -1,0 +1,29 @@
+cat /etc/centos-release
+yum install -y git
+git --version
+git config --global user.name “yourgitusername”
+git config --global user.email “yourgitusername@gmail.com”
+git config --global push.default simple
+ 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ 
+cat ~/.ssh/id_rsa.pub
+git remote set-url origin https://yourgitusername:yourgittoken@github.com/yourgitusername/yourgitrepository.git
+git remote -v
+ 
+hostname -I
+git status
+ 
+git add README.md
+ 
+git add -A
+git add *
+git status
+git commit -m "first commit"
+git push
+git log
+git clone "url"
+git remote -v
+git branch -a
+git restore .
+git diff
